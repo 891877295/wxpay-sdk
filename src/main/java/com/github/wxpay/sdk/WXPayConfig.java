@@ -11,7 +11,7 @@ public abstract class WXPayConfig {
      *
      * @return App ID
      */
-	protected abstract String getAppID();
+	public abstract String getAppID();
 
 
     /**
@@ -19,7 +19,7 @@ public abstract class WXPayConfig {
      *
      * @return Mch ID
      */
-	protected abstract String getMchID();
+	public abstract String getMchID();
 
 
     /**
@@ -27,7 +27,7 @@ public abstract class WXPayConfig {
      *
      * @return API密钥
      */
-	protected abstract String getKey();
+	public abstract String getKey();
 
 
     /**
@@ -35,7 +35,7 @@ public abstract class WXPayConfig {
      *
      * @return 商户证书内容
      */
-	protected abstract InputStream getCertStream();
+	public abstract InputStream getCertStream();
 
     /**
      * HTTP(S) 连接超时时间，单位毫秒
